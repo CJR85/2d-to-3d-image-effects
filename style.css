@@ -26,5 +26,11 @@ body {
   left: 0;
   width: 100%;
   object-fit: cover;
-  // transform: rotate(-30deg) skew(25deg);
+  transition: 0.5s;
+}
+
+.imgBx:hover img {
+  transform: rotate(-30deg) skew(25deg) translateX(calc(35px * var(--i)))
+    translateY(calc(-35px * var(--i)));
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.25);
 }
