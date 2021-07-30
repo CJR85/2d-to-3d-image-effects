@@ -10,6 +10,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform-style: preserve-3d;
+  perspective: 1000px;
 }
 
 .imgBx {
@@ -24,4 +26,5 @@ body {
   left: 0;
   width: 100%;
   object-fit: cover;
+  // transform: rotate(-30deg) skew(25deg);
 }
